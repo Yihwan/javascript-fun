@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic"); */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700');
 /*
 	Forty by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -1641,7 +1641,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "IBM Plex Sans", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -2781,6 +2781,18 @@
 			width: 40%;
 			cursor: pointer;
 		}
+			.tiles article .tagline {
+				font-size: .8em;
+		    letter-spacing: .15em;
+			}
+
+			.tiles article .details {
+				font-size: .85em;
+		    font-weight: 400;
+		    letter-spacing: .10em;
+		    text-transform: none;
+		    font-style: italic;
+			}
 
 			.tiles article .image {
 				display: none;
@@ -2792,7 +2804,7 @@
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 1.85em;
 			}
 
 				.tiles article h3 a:hover {
@@ -3164,6 +3176,7 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+			letter-spacing: .20em;
 		}
 
 			#header .logo strong {
@@ -3176,7 +3189,7 @@
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
-				padding: 0 0.125em 0 0.375em;
+				padding: 0 0.250em 0 0.500em;
 			}
 
 			#header .logo:hover strong {
@@ -3504,9 +3517,9 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 0.8em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.20em;
 					text-transform: uppercase;
 				}
 
