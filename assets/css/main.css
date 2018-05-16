@@ -2739,7 +2739,6 @@
 		}
 
 /* Tiles */
-
 	.tiles {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2780,6 +2779,7 @@
 			overflow: hidden;
 			position: relative;
 			width: 40%;
+			cursor: pointer;
 		}
 
 			.tiles article .image {
@@ -2819,7 +2819,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.90;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2838,7 +2838,7 @@
 			}
 
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: .60;
 			}
 
 			.tiles article.is-transitioning {
@@ -2850,7 +2850,7 @@
 				-webkit-filter: blur(0.5em);
 				-ms-filter: blur(0.5em);
 				filter: blur(0.5em);
-				opacity: 0;
+				opacity: .60;
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
