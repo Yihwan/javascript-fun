@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: #242943;
+		background: #1b1b1d;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2088,7 +2088,7 @@
 			background: #ffffff;
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #242943;
+			color: #1b1b1d;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2169,7 +2169,7 @@
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #242943;
+			color: #1b1b1d;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2406,12 +2406,12 @@
 
 					ul.pagination li > .page.active {
 						background-color: #ffffff;
-						color: #242943;
+						color: #1b1b1d;
 					}
 
 						ul.pagination li > .page.active:hover {
 							background-color: #9bf1ff;
-							color: #242943 !important;
+							color: #1b1b1d !important;
 						}
 
 						ul.pagination li > .page.active:active {
@@ -2697,7 +2697,7 @@
 		.button.special {
 			background-color: #ffffff;
 			box-shadow: none;
-			color: #242943;
+			color: #1b1b1d;
 		}
 
 			input[type="submit"].special:hover, input[type="submit"].special:active,
@@ -2710,7 +2710,7 @@
 			.button.special:hover,
 			.button.special:active {
 				background-color: #9bf1ff;
-				color: #242943 !important;
+				color: #1b1b1d !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3172,7 +3172,7 @@
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #1b1b1d;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3407,7 +3407,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		/* background-image: url("../../images/banner.jpg"); */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3440,7 +3440,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #1b1b1d;
 			content: '';
 			display: block;
 			height: 100%;
