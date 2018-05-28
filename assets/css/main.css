@@ -2977,7 +2977,13 @@
 			-ms-flex-direction: row;
 			flex-direction: row;
 			background-color: #2e3450;
+			min-height: 429.33px;
+			margin-bottom: 25px;
 		}
+		
+			.spotlights > section h3 {
+				font-size: 1.85em;
+			}
 
 			.spotlights > section > .image {
 				background-position: center center;
@@ -3631,7 +3637,7 @@
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #1B1B1D;
 	}
 
 		#main > * {
