@@ -2977,10 +2977,11 @@
 			-ms-flex-direction: row;
 			flex-direction: row;
 			background-color: #2e3450;
-			min-height: 429.33px;
+			min-height: 400px;
+			max-height: 429.33px;
 			margin-bottom: 25px;
 		}
-		
+
 			.spotlights > section h3 {
 				font-size: 1.85em;
 			}
@@ -2996,8 +2997,8 @@
 
 				.spotlights > section > .image img {
 					border-radius: 0;
-					display: block;
 					width: 100%;
+					height: 100%;
 				}
 
 				.spotlights > section > .image:before {
